@@ -1,2 +1,4 @@
-frontend-part-2
-===============
+# Innføring i moderne frontendteknikker
+
+## Del 2 - oppgaver
+
