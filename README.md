@@ -22,7 +22,7 @@ For å kunne løse oppgavene trengs det en pc med følgende installert:
 
 ### Forberedelse til del 2
 
-- Sørg for at kravene er oppfylt
+- Sørg for at kravene til pc er oppfylt
 
 ### Områder det vil fokuseres på i innføringen/oppgaveløsningen
 
