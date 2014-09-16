@@ -6,13 +6,13 @@
     <link rel="stylesheet" type="text/css" href="css/screen.css" media="screen, projection">
   </head>
   <body>
-    <header>
+    <header role="banner">
       <h1>Innføring i moderne frontendteknikker</h1>
       <h2>Del 2 - oppgaveløsning</h2>
     </header>
     <nav>
-      <h1>Innhold:</h1>
-      <ul>
+      <h1>Innhold</h1>
+      <ul role="navigation">
         <li><a href="#innledning">Innledning</a></li>
         <li><a href="#oppgave1">Oppgave 1</a></li>
         <li><a href="#oppgave2">Oppgave 2</a></li>
@@ -26,8 +26,8 @@
         <li><a href="#oppgave10">Oppgave 10</a></li>
       </ul>
     </nav>
-    <main>
-      <article id="innledning">
+    <main role="main">
+      <article id="innledning" role="article">
         <h1>Innledning</h1>
         <p>Denne delen av kurset er lagt opp som en oppgave der en enkel nettside skal styles i flere steg</p>
         <h2>Krav</h2>
@@ -59,63 +59,64 @@
           <li>Fornuftig navngiving av klasser</li>
         </ul>
       </article>
-      <article id="oppgave1">
+      <article id="oppgave1" role="article">
         <h1>Oppgave 1</h1>
         <h2>Kort teori</h2>
         <p>Mobile first er en ide om at utvikling av en webapp bør ta utgangspunkt i at en først produserer et design som fungerer for enheter med liten skjerm. Tanken er at et design som fungerer for små skjermer kan være et minimumsdesign som også kan tilbys enheter som mangler støtte for mer avansert funksjonalitet.</p>
         <h2>Oppgave</h2>
-        <p>Åpne index.html i nettleseren og juster størrelsen på vinduet til noe i nærheten av størrelsen til en normal smarttelefon. Endre deretter fonttørrelse og linjehøyde på tekst i _base.scss til du oppnår noe du føler er godt lesbart når skjermen er liten.</p>
+        <p>Åpne index.html i nettleseren og juster størrelsen på vinduet til noe i nærheten av størrelsen til en normal smarttelefon. Endre deretter fonttørrelse og linjehøyde på tekst i _base.scss til du oppnår noe du føler er godt lesbart når skjermen er liten. Noen elementtyper kan kanskje ha behov for margin i tillegg?</p>
       </article>
-      <article id="oppgave2">
+      <article id="oppgave2" role="article">
         <h1>Oppgave 2</h1>
         <h2>Kort teori</h2>
+        <p>Et lesbart oppsett over en spalte er et godt utgangspunkt for et mobilt design. </p>
         <h2>Oppgave</h2>
       </article>
-      <article id="oppgave3">
+      <article id="oppgave3" role="article">
         <h1>Oppgave 3</h1>
         <h2>Kort teori</h2>
         <h2>Oppgave</h2>
       </article>
-      <article id="oppgave4">
+      <article id="oppgave4" role="article">
         <h1>Oppgave 4</h1>
         <h2>Kort teori</h2>
         <h2>Oppgave</h2>
       </article>
-      <article id="oppgave5">
+      <article id="oppgave5" role="article">
         <h1>Oppgave 5</h1>
         <h2>Kort teori</h2>
         <h2>Oppgave</h2>
       </article>
-      <article id="oppgave6">
+      <article id="oppgave6" role="article">
         <h1>Oppgave 6</h1>
         <h2>Kort teori</h2>
         <h2>Oppgave</h2>
       </article>
-      <article id="oppgave7">
+      <article id="oppgave7" role="article">
         <h1>Oppgave 7</h1>
         <h2>Kort teori</h2>
         <h2>Oppgave</h2>
       </article>
-      <article id="oppgave8">
+      <article id="oppgave8" role="article">
         <h1>Oppgave 8</h1>
         <h2>Kort teori</h2>
         <h2>Oppgave</h2>
       </article>
-      <article id="oppgave9">
+      <article id="oppgave9" role="article">
         <h1>Oppgave 9</h1>
         <h2>Kort teori</h2>
         <h2>Oppgave</h2>
       </article>
-      <article id="oppgave10">
+      <article id="oppgave10" role="article">
         <h1>Oppgave 10</h1>
         <h2>Kort teori</h2>
         <h2>Oppgave</h2>
       </article>
     </main>
-    <aside>
+    <aside role="complementary">
       <div class="resources" rel="internal">
         <h3>Interne ressurser</h3>
-        <ul class="resources__list">
+        <ul class="resources__list" role="navigation">
           <li class="resources__item">
             <a href="https://github.com/arejoh/frontend-part-2">Repository på Github</a>
           </li>
@@ -129,7 +130,7 @@
       </div>
       <div class="resources" rel="external">
         <h3>Eksterne ressurser</h3>
-        <ul class="resources__list">
+        <ul class="resources__list" role="navigation">
           <li class="resources__item">
             <a href="http://html5doctor.com/" class="resources__link">HTML5 Doctor</a>
           </li>
@@ -148,8 +149,8 @@
         </ul>
       </div>
     </aside>
-    <footer>
-
+    <footer role="contentinfo">
+      <p>&copy; arejo</p>
     </footer>
   </body>
 </html>
