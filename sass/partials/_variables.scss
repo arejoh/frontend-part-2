@@ -7,3 +7,7 @@ $font-size-h3: 1.2rem;
 $font-size-body: 1rem;
 
 $line-height: 1.5em;
+
+$base-red: #be4c39;
+$medium-red: lighten($base-red, 15%);
+$light-red: lighten($base-red, 45%);
