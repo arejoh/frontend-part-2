@@ -1,4 +1,10 @@
 nav {
+  @include grid-span(3,1);
+  @include breakpoint($wide) {
+    @include grid-span(9,1);
+    clear: right;
+  }
+
   background: $light-red;
   h1 {
     background: $base-red;

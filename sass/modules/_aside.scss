@@ -1,0 +1,6 @@
+aside {
+  @include grid-span(3);
+  @include breakpoint($wide) {
+    @include grid-span(3,10);
+  }
+}

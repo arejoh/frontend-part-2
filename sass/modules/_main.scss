@@ -1,0 +1,8 @@
+main {
+  @include grid-span(3);
+  
+  @include breakpoint($wide) {
+    @include grid-span(9,1);
+    clear: left;
+  }
+}

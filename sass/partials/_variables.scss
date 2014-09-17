@@ -11,3 +11,11 @@ $line-height: 1.5em;
 $base-red: #be4c39;
 $medium-red: lighten($base-red, 15%);
 $light-red: lighten($base-red, 45%);
+
+$wide: 870px;
+
+@include add-grid(3);
+@include add-grid(12 at $wide);
+@include add-gutter(1/3);
+@include add-gutter-style('split');
+@include sgs-change('output', 'isolation');
